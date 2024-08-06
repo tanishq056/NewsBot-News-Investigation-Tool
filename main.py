@@ -22,7 +22,7 @@ if not openai_api_key:
 # Initialize OpenAI with the API key
 llm = OpenAI(openai_api_key=openai_api_key, temperature=0.9, max_tokens=500)
 
-st.title("RockyBot: News Research Tool 📈")
+st.title("News Analyzer Tool")
 st.sidebar.title("News Article URLs")
 
 urls = []
